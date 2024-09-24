@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.toolbox-cont {
+    height: 5rem;
+    background-color: #4b4b4b;
+    display: flex;
+    align-items: center;
+}
+
+.toolbox-cont > * {
+    margin-left: 4rem;
+}
+
+.toolbox-priority-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 3.5rem;
+    width: 18rem;
+    background-color: #3d3d3d;
+    border-radius: 1rem;
+}
+
+.toolbox-priority-cont > *:hover {
+    opacity: 70%;
+}
+
+.color {
+    height: 2rem;
+    width: 3rem;
+    border-radius: 0.5rem;
+}
+
+.lightpink {
+    background-color: lightpink;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.black {
+    background-color: black;
+}
+
+.action-btn-cont {
+    height: 3.5rem;
+    width: 8rem;
+    background-color: #3d3d3d;
+    display: flex;   
+    border-radius: 1rem;
+}
+
+.action-btn-cont > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.action-btn-cont > *:hover {
+    background-color: green;
+}
+
+.main-cont {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.ticket-cont {
+    height: 12rem;
+    width: 15rem;
+    background-color: coral;
+    position: relative;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.ticket-color {
+    height: 0.7rem;
+    cursor: pointer;
+}
+
+.ticket-id {
+    background-color: yellow;
+    height: 1.3rem;
+    text-align: center;
+}
+
+.task-area {
+    height: 10rem;
+    padding: 0.5rem;
+    overflow: auto;
+}
+
+.task-area::-webkit-scrollbar-thumb {
+    background: none;
+}
+
+.ticket-lock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.fa-lock, .fa-lock-open {
+    cursor: pointer;
+}
+
+.modal-cont {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    background-color: #dfe4ea;
+    width: 50vw;
+    height: 50vh;
+    display: none;
+    border-radius: 1rem;
+}
+
+.textarea-cont {
+    height: 100%;
+    width: 75%;
+    outline: none;
+    border: none;
+    background-color: #dfe4ea;
+    color: black;
+    font-size: 2rem;
+    resize: none;
+    border-radius: 1rem 0rem 0rem 1rem;
+    padding: 1rem;
+}
+
+.priority-colors-cont {
+    height: 100%;
+    width: 25%;
+    background-color: #4b4b4b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.priority-color {
+    height: 3rem;
+    width: 60%;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.active {
+    border: 5px solid orange;
+}
