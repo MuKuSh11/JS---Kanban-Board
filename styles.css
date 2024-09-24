@@ -92,7 +92,7 @@ body {
 .ticket-cont {
     height: 12rem;
     width: 15rem;
-    background-color: coral;
+    background-color: #F4A896;
     position: relative;
     border-radius: 0rem 0rem 1rem 1rem;
 }
@@ -103,7 +103,7 @@ body {
 }
 
 .ticket-id {
-    background-color: yellow;
+    background-color: #358597;
     height: 1.3rem;
     text-align: center;
 }
