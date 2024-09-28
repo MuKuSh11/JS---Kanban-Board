@@ -4,7 +4,7 @@
 
 This Kanban board helps you organize and manage tasks with a simple and intuitive interface. Tasks are categorized by color, and features include task creation, editing, deletion, and filtering, with data persistence across browser refreshes.
 
-You can access and use the Kanban board at the following link: **[Kanban Board](https://mukush11.github.io/Kanban-Board---Basic/)**
+You can access and use the Kanban board at the following link: **[Kanban Board](https://mukush11.github.io/JS---Kanban-Board/)**
 
 ## Features
 
