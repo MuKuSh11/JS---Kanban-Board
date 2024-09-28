@@ -46,8 +46,8 @@ You can access and use the Kanban board at the following link: **[Kanban Board](
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-kanban-board.git
+   git clone https://github.com/MuKuSh11/JS---Kanban-Board.git
 2. Navigate to the project directory:
    ```bash
-   cd your-kanban-board
+   cd JS---Kanban-Board
 3. Open the **index.html** file in your browser to start using the kanban board.
